@@ -4,9 +4,8 @@ metadata:
   name: flux-system
   namespace: flux-system
 spec:
-  interval: 1m0s
+  interval: 1m
   url: https://github.com/RajeshMarri10/flux-operator.git
-  branch: main
   ref:
     branch: main
   secretRef:
@@ -18,10 +17,9 @@ metadata:
   name: flux-system
   namespace: flux-system
 spec:
-  interval: 1m0s
-  path: ./clusters/local
-  prune: true
+  interval: 1m
   sourceRef:
     kind: GitRepository
     name: flux-system
-  validation: client
+  path: "./clusters/local"
+  prune: true
