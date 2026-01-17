@@ -23,5 +23,3 @@ spec:
     ref: "refs/heads/main"
     path: "clusters/kind-kind"
     pullSecret: "flux-system"
-    period: 1m          # how often git is scanned for updates
-    timeout: 2m 
