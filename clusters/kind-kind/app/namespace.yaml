@@ -17,3 +17,8 @@ apiVersion: v1
 kind: Namespace
 metadata:
   name: tharaka
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: rajesh-dev
